@@ -23,3 +23,12 @@ aws lambda list-functions
 
 # List IAM Users
 aws iam list-users
+
+# List VPCs
+aws ec2 describe-vpcs
+
+# List Security Groups
+aws ec2 describe-security-groups
+
+echo -e "$===== End of Report =====$"
+
